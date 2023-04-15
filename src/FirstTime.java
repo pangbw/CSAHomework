@@ -42,8 +42,7 @@ public class FirstTime {
             chars[chars.length-i-1] = temp;
         }
         String s1 = String.valueOf(chars);
-        s = s1;
-        System.out.println(s);
+        System.out.println(s1);
     }
 
     public static void isPalindrome(int num) {

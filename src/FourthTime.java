@@ -1,6 +1,5 @@
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Scanner;
 
 public class FourthTime {
     public static void main(String[] args) {
@@ -31,11 +30,11 @@ public class FourthTime {
         try {
             if (n < 0) {
                 StringBuilder sb = new StringBuilder(String.valueOf(-n));
-                sb = sb.reverse();
+                sb.reverse();
                 n = -Integer.parseInt(sb.toString());
             } else {
                 StringBuilder sb = new StringBuilder(String.valueOf(n));
-                sb = sb.reverse();
+                sb.reverse();
                 n = Integer.parseInt(sb.toString());
             }
             if (n >= -Math.pow(2, 31) && n <= Math.pow(2, 31) - 1) {
